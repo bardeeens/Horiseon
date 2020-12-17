@@ -15,7 +15,7 @@ body {
     color: #ffffff;
 }
 /* was .header h1 { */
-header {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
