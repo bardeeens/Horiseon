@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,19 +24,19 @@ h1 {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* was .header div ul { */
- ul {
+
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li  {
+header nav ul li  {
     display: inline-block;
     margin-left: 25px;
 }
@@ -111,7 +111,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* deleted unnecessary code */
+/* consolidated redundant code */
 .threeSections img {
     max-height: 200px;
 }
@@ -120,12 +120,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* edited the footer to make appearance match the rest of page */
 footer {
-    padding: 30px;
+    padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 footer h2 {
